@@ -39,8 +39,12 @@
 
     <!-- Udfps animation -->
     <dimen name="udfps_animation_offset">30dp</dimen>
+	<dimen name="udfps_animation_size">260dp</dimen>
 
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">860px</dimen>
+	
+	<!-- The width/height of the unlock icon view on keyguard. -->
+    <dimen name="keyguard_lock_height">50dp</dimen>
 
 </resources>
