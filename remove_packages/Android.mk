@@ -23,16 +23,23 @@ LOCAL_OVERRIDES_PACKAGES := \
 		ScribePrebuilt \
 		Showcase \
 		Tycho \
-		Papers \
+		SwitchAccessPrebuilt \
+		VoiceAccessPrebuilt \
+		DreamlinerPrebuilt \
+		DreamlinerUpdater \
+		HelpRtcPrebuilt \
+		PlayAutoInstallConfig \
+		FilesPrebuilt \
+		arcore \
+		Gallery2 \
+		MatLog \
 		Videos \
 		PixelLiveWallpaperPrebuilt \
 		talkback \
-		Updates \
 		FM2 \
 		NfcNci \
 		ViMusic \
-		AndroidAutoStubPrebuilt \
-		Papers
+		AndroidAutoStubPrebuilt
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
