@@ -49,6 +49,7 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     libaudio-resampler \
     libaudioroute \
+    libaudioroute.vendor \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
@@ -180,7 +181,8 @@ PRODUCT_PACKAGES += \
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0.vendor
+    android.hardware.gatekeeper@1.0.vendor \
+    libion.vendor
 
 # GNSS
 PRODUCT_PACKAGES += \
@@ -240,6 +242,7 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.base@1.0.vendor \
     libhidltransport.vendor \
+    libhidlmemory.vendor \
     libhwbinder.vendor
 
 # Input
@@ -396,7 +399,8 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
     libjson \
     librmnetctl \
-    libxml2
+    libxml2 \
+    libsqlite.vendor:64
 
 # Ramdisk
 PRODUCT_PACKAGES += \
@@ -511,6 +515,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.media.audio.common.types-V2-cpp \
     libnl \
+    libpng.vendor \
+    libprocessgroup.vendor \
     libwfdaac_vendor \
     vendor.qti.hardware.display.config-V5-ndk
 
