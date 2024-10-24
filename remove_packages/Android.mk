@@ -9,11 +9,13 @@ LOCAL_OVERRIDES_PACKAGES := \
     Maps \
     MeetPrebuilt \
     VoiceAccessPrebuilt \
+    SwitchAccessPrebuilt \
     ScribePrebuilt \
     OdadPrebuilt \
     PrebuiltGmail \
     PixelLiveWallpaperPrebuilt \
     GoogleCamera \
+    Camera2 \
     DreamlinerPrebuilt \
     DreamlinerUpdater \
     DevicePolicyPrebuilt \
