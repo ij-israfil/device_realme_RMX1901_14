@@ -13,6 +13,7 @@ $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
  # Maintainer Flag
  AFTERLIFE_MAINTAINER := м∂_ιѕяαƒιℓ
+ TARGET_USE_ECHO := true
 
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
